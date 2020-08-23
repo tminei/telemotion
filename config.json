@@ -11,9 +11,6 @@
     },
     "deleteAfterSend": false
   },
-  "roi": {
-    "useRoi": true
-  },
   "threshold": {
     "thresh": 200,
     "maxval": 255,

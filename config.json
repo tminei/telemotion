@@ -1,0 +1,35 @@
+{
+  "telegram": {
+    "send": true,
+    "TOKEN": "TOKEN",
+    "chatID": "CHATID",
+    "sendDelay": 0,
+    "silentSend": true,
+    "caption": {
+      "use": true,
+      "format": "%counter%: %filename%"
+    },
+    "deleteAfterSend": false
+  },
+  "roi": {
+    "useRoi": true
+  },
+  "threshold": {
+    "thresh": 200,
+    "maxval": 255,
+    "dilate": 2,
+    "gauss": 11
+  },
+  "resize": {
+    "width": 1.3,
+    "height": 1.3
+  },
+  "camera": 0,
+  "showWindows": false,
+  "firstRun": true,
+  "sense": 0.01,
+  "waitKeyTime": 1,
+  "strFormat": "motion_%Y_%m_%d_%H-%M-%S",
+  "debug": true,
+  "saveFolder": "backup"
+}
